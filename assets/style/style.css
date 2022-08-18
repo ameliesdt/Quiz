@@ -1,0 +1,40 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    background-color:black;
+}
+
+#content {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+p {
+    padding:2rem;
+    color:white;
+}
+
+img {
+    max-height:15rem;
+    margin-top:4rem;
+    border-radius:10px;
+}
+
+button {
+    padding:1rem;
+    margin-bottom: 1rem;
+    min-width:12rem;
+    border-radius:10px;
+    background-color:white;
+}
+
+button:hover {
+    background-color:grey;
+    color:white;
+}
+
+
